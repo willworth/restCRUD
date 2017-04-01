@@ -31,6 +31,7 @@ var routes = function(Book){
 
             returnBook.links = {};
             var newLink = 'http://' + req.headers.host + '/api/books/?genre=' + returnBook.genre;
+            // accounts for spaces in genre name by replacing spaces with %20
             returnBook.links.FilterByThisGenre = newLink.replace(' ', '%20');
             res.json(returnBook);
 
