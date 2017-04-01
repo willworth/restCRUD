@@ -65,6 +65,7 @@ var routes = function(Book){
         })
         .patch(function(req,res){
             if(req.body._id)
+            //make sure they can't change id!
                 delete req.body._id;
 
             for(var p in req.body)
