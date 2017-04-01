@@ -8,3 +8,8 @@ bucky mongo tut
 https://www.youtube.com/watch?v=1uFY60CESlM&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO
 
 before you can launch mongo, you need to set the db location   c/data/db
+
+
+for post in rested chrome extension
+header required
+Content-Type                           application/json
