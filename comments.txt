@@ -3,12 +3,12 @@ representational state transfer
 stateless servers  all necessary info in requests
 get post put delete  (also patch, which is partial update of put)
 
-
 bucky mongo tut
 https://www.youtube.com/watch?v=1uFY60CESlM&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO
 
 before you can launch mongo, you need to set the db location   c/data/db
-
+then run
+C:\Program Files\MongoDB\Server\3.4\bin>mongod
 
 for post in rested chrome extension
 header required
@@ -18,3 +18,8 @@ Content-Type                           application/json
 
 middleware
 between client and route
+
+
+for controllers  - revealing module pattern
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
+https://weblogs.asp.net/dwahlin/techniques-strategies-and-patterns-for-structuring-javascript-code-revealing-module-pattern
