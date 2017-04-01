@@ -1,0 +1,10 @@
+REST
+representational state transfer
+stateless servers  all necessary info in requests
+get post put delete  (also patch, which is partial update of put)
+
+
+bucky mongo tut
+https://www.youtube.com/watch?v=1uFY60CESlM&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO
+
+before you can launch mongo, you need to set the db location   c/data/db
