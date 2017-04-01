@@ -1,7 +1,6 @@
 {
   "name": "restful",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,18 @@
     "mongoose": "^4.9.2",
     "should": "^11.2.1",
     "sinon": "^2.1.0"
-  }
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willworth/restCRUD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willworth/restCRUD/issues"
+  },
+  "homepage": "https://github.com/willworth/restCRUD#readme",
+  "description": ""
 }
