@@ -46,7 +46,7 @@ var routes = function(Book){
     });
     bookRouter.route('/:bookId')
         .get(function(req,res){
-
+                //if we get here, it means the middleware has found the book
             res.json(req.book);
 
         })
